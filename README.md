@@ -14,13 +14,14 @@ Student class with attributes (*student_id, name, age, grade*)
 Handles data storage and retrieval using a database (SQLite).
 
 create an SQLite database and connect
-  . def create_table(self): Create students table.
+
+    . def create_table(self): Create students table.
   
-  . def add_student(self, student): add the student to students table.
+    . def add_student(self, student): add the student to students table.
   
-  . def get_students(self): fetch all students.
+    . def get_students(self): fetch all students.
   
-  . def delete_student(self, student_id): delete the student from students table.
+    . def delete_student(self, student_id): delete the student from students table.
   
 3. **Implement Business Logic Layer (Service Layer) with the functions below - (student_service.py) :**
 Contains the core logic for managing student records.

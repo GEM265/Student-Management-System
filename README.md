@@ -26,13 +26,13 @@ create an SQLite database and connect
 3. **Implement Business Logic Layer (Service Layer) with the functions below - (student_service.py) :**
 Contains the core logic for managing student records.
 
-  . def add_student(self, student_id, name, age, grade):
-    . check if age is valid (greater than 15)
-    . check if grade is valid (greater than 70)
-    . If all valid then create a new Student instance and call the repository layer’s add_student function with this instance.
-  . def get_students(self): Fetch all students by calling repository layer’s get_students
-  . def delete_student(self, student_id): Delete the student by calling repository layer’s delete_student
-4. **Implement Presentation Layer (User Interface) - (main.py) :**
+        . def add_student(self, student_id, name, age, grade):
+            . check if age is valid (greater than 15)
+            . check if grade is valid (greater than 70)
+            . If all valid then create a new Student instance and call the repository layer’s add_student function with this instance.
+       . def get_students(self): Fetch all students by calling repository layer’s get_students
+       . def delete_student(self, student_id): Delete the student by calling repository layer’s delete_student
+5. **Implement Presentation Layer (User Interface) - (main.py) :**
 Provides a command line interface (CLI) for users to interact with the application. Implement an infinite loop that has an Exit choice.
 
 

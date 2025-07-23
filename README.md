@@ -32,9 +32,9 @@ Contains the core logic for managing student records.
             . If all valid then create a new Student instance and call the repository layer’s add_student function with this instance.
        . def get_students(self): Fetch all students by calling repository layer’s get_students
        . def delete_student(self, student_id): Delete the student by calling repository layer’s delete_student
-5. **Implement Presentation Layer (User Interface) - (main.py) :**
+4. **Implement Presentation Layer (User Interface) - (main.py) :**
 Provides a command line interface (CLI) for users to interact with the application. Implement an infinite loop that has an Exit choice.
 
 
-<img width="257" height="143" alt="image" src="https://github.com/user-attachments/assets/2acb2d3e-1b72-4e33-bea3-2683d65a4bc4" />
+    <img width="257" height="143" alt="image" src="https://github.com/user-attachments/assets/2acb2d3e-1b72-4e33-bea3-2683d65a4bc4" />
 
